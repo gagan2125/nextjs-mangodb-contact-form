@@ -77,7 +77,7 @@ export default function ContactForm() {
       </form>
       <div className="bg-slate-100 flex flex-col">
         {error &&
-          error.map((e) => (
+          error.map((e, index) => (
             <div
             key={index}
               className={`${
